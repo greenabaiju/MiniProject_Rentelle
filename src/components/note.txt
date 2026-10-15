@@ -1,0 +1,27 @@
+header prompt
+Design a premium luxury fashion website navbar for a brand named **AURELLE**, matching a minimalist high-end fashion aesthetic.
+
+**Design requirements:**
+
+- Create a single horizontal navbar with a height of approximately 54px.
+- Background color: warm off-white `#f5f1eb`.
+- Add a thin light-gray bottom border.
+- **Left side:** Display these navigation links in one row: SHOP, COLLECTIONS, JOURNAL, ABOUT, CONTACT.
+- Use small uppercase text, around 10–11px, with a clean sans-serif font, dark text, and consistent spacing between links.
+- **Center:** Place the brand name AURELLE exactly at the horizontal center of the viewport. Use an elegant serif font, approximately 22px, with letter spacing of 5px. Keep it perfectly centered regardless of the width of the left and right sections.
+- **Right side:** Add three minimal outline icons in this order: search, user account, shopping bag. Display a small `(0)` cart count beside the shopping bag.
+- Use `react-icons/fi` icons: `FiSearch`, `FiUser`, and `FiShoppingBag`.
+- Align all elements vertically in the center.
+- Use balanced horizontal padding of approximately 30px.
+- Keep the design clean, elegant, spacious, and similar to a luxury fashion brand's online store.
+- Avoid gradients, shadows, rounded navbar corners, bright colors, and unnecessary decorations.
+- On mobile screens, hide the full navigation links and display only SHOP on the left, AURELLE in the center, and the three icons on the right. Prevent overlapping elements.
+- Add subtle hover effects to the navigation links and icons.
+- Make the navbar responsive and accessible.
+
+**Technical requirements:**
+- Use React JSX and Tailwind CSS only.
+- Do not create a separate CSS file.
+- Do not modify the existing hero section or other website components.
+- Return the complete navbar component code, ready to insert into my existing React project.
+- Preserve the existing AURELLE luxury fashion theme.

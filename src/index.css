@@ -1,0 +1,30 @@
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+
+
+.lookbook-track {
+  width: max-content;
+  animation: lookbook-scroll 35s linear infinite;
+}
+
+.lookbook-viewport:hover .lookbook-track {
+  animation-play-state: paused;
+}
+
+@keyframes lookbook-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lookbook-track {
+    animation: none;
+  }
+}
